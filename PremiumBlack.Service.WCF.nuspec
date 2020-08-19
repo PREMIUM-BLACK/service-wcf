@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>PremiumBlack.Services.WCF</id>
+    <version>2.0.0</version>
+    <title>PREMIUM BLACK - WCF Library</title>
+    <authors>Florian Dahn</authors>
+    <owners>Florian Dahn</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://premium.black/projectUrl</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>This is the WCF service library to consume our PREMIUM BLACK services.</description>
+    <releaseNotes>This is the WCF service library to consume our PREMIUM BLACK services.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>C# Premium Black Crypto Bitcoin Litecoin Dash Ethereum BTC ETH LTC DASH Payment Provider</tags>
+  </metadata>
+</package>
