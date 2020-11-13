@@ -128,7 +128,7 @@ namespace PremiumBlack.Service.WCF
         
         private string PriceCurrencyField;
         
-        private bool ReturnQRCodeField;
+        private string ReturnQRCodeField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string Amount
@@ -248,7 +248,7 @@ namespace PremiumBlack.Service.WCF
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public bool ReturnQRCode
+        public string ReturnQRCode
         {
             get
             {
@@ -558,14 +558,14 @@ namespace PremiumBlack.Service.WCF
     public partial class GetTransactionDetailsRequest : PremiumBlack.Service.WCF.EncryptedClass
     {
         
-        private bool ReturnQRCodeField;
+        private string ReturnQRCodeField;
         
         private string TransactionIdField;
         
         private string TransactionKeyField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public bool ReturnQRCode
+        public string ReturnQRCode
         {
             get
             {
@@ -625,6 +625,8 @@ namespace PremiumBlack.Service.WCF
         private string ChangedOriginalAmountField;
         
         private long ConfirmationsField;
+        
+        private long ConfirmationsNecessaryField;
         
         private System.Nullable<System.DateTime> ConfirmedAtField;
         
@@ -763,6 +765,19 @@ namespace PremiumBlack.Service.WCF
             set
             {
                 this.ConfirmationsField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long ConfirmationsNecessary
+        {
+            get
+            {
+                return this.ConfirmationsNecessaryField;
+            }
+            set
+            {
+                this.ConfirmationsNecessaryField = value;
             }
         }
         
