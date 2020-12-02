@@ -338,3 +338,6 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+cpush.ps1
+cpack.ps1
+nuget.exe
